@@ -16,6 +16,8 @@ context('User Registration', () => {
   //how a test case is defined/described anything inside this function is executed for the test case
   it('Registering a New User', function ()
   {
+
+    //
     reg.regURL()
     cks.policyCheckText()
     cks.acceptCookies()
